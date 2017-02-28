@@ -1,0 +1,71 @@
+@media only screen and (min-width: 981px) {
+	.mobile-nav {
+		display:none;
+	}
+	#event_type {
+		display:none;
+	}
+}
+@media only screen and (max-width: 980px) {
+  	h2 {
+  		font-size:14px;
+  	}
+  	.greybox {
+  		display:none;
+  	}
+  	.greybox li {
+		width: 100%;
+	}
+	.mobile-nav {
+		diplay:block;
+	}
+	.content, .content_full {
+		width: 100%;
+		font-size:14px;
+	}
+	.content .home_mea .home_mea_img, .content_full .home_mea .home_mea_img  {
+		width: 100%;
+	}
+	.content .home_mea p, .content_full .home_mea p {
+		font-size:12px;
+	}
+	.content .home_mea ul, .content .home_mea ul li {
+		font-size:12px;
+	}
+	.content .home_mea ul {
+	    padding-left:0%;
+	}
+	.leftside {
+		width:100%;
+		float:left;
+	}
+	.leftside article .fb_iframe_widget {
+	    position: relative;
+	    left: 2%;
+	}
+	footer .greybox {
+  		display:block;
+  	}
+  	.flexbox .greybox {
+  		display:none;
+  	}
+  	#event_type {
+		display:block;
+	}
+
+}
+
+@media only screen and (max-width: 699px) {
+	.content article.half_size {
+		width: 100%;
+	}
+	#costumes #single_costume {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 359px) {
+	.leftside {
+		display: none;
+	}
+}

@@ -1,0 +1,277 @@
+.hidden {
+	visibility:hidden;
+}
+.noDisplay {
+	display:none;
+}
+
+.img--round {
+    border-radius: 60px;
+}
+u {
+    text-decoration: underline;
+}
+h2 {
+	color : #18355d;
+	margin-bottom: 5px;
+}
+header {
+	width: 100%;
+}
+
+header img {
+	width: 100%;
+}
+nav {
+	position: relative;
+    top: -7px;
+}
+.mobile-nav::before {
+    cursor: pointer;
+    font-family: Arial !important;
+    font-size: 36px;
+    left: 0;
+    line-height: 44px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    top: 0;
+    transform: scale(1.5, 1);
+    width: 43px;
+    padding: 0;
+}
+.mobile-nav {
+	cursor: pointer;
+    display: block;
+    height: 43px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-indent: -9999px;
+    background-color: #1a566e;
+    color:#FFFFFF;
+}
+.greybox {
+	background-color: #1a566e;
+    color: #e8eef1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    clear: left;
+    margin-bottom: 0px;
+}
+
+.greybox ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.greybox li {
+	width: 12.5%;
+	float:left;
+}
+
+.greybox li.current, .greybox li:hover {
+	color:#91c7dc;
+}
+
+.greybox li a {
+	text-decoration: none;
+	color:inherit;
+}
+
+.greybox li.current a, .greybox li:hover a {
+	text-decoration: underline;
+}
+
+.content_full {
+	width: 100%;
+	float:left;
+	padding: 0px 5%;
+    min-height:250px;
+}
+
+.content {
+    width: 65%;
+    float:left;
+    padding: 0px 15px;
+    min-height:250px;
+}
+
+.content article, .content_full article {
+	width:100%;
+	float:left;
+}
+
+.content article.half_size {
+    width:50%;
+    float:left;
+}
+
+.content .home_mea .home_mea_img, .content_full .home_mea .home_mea_img {
+	width: 100%;
+	float:left;
+	padding: 0 10px 0 0;
+}
+
+.content .home_mea p, .content_full .home_mea p {
+	margin:0;
+	color : #18355d;
+}
+
+.content .home_mea p a, .content_full .home_mea p a {
+	text-decoration: none;
+	color:inherit;
+}
+
+.content .home_mea ul {
+    color : #18355d;
+    padding-top:  2%;
+    padding-left:15%;
+}
+
+.content .home_mea ul li {
+    color : #18355d;
+    padding-bottom: 5px;
+}
+
+.leftside {
+	width: 35%;
+	float:left;
+	padding: 5px;
+}
+
+.leftside article .fb_iframe_widget {
+    position: absolute;
+    right: 2%;
+}
+
+.flexbox__item p {
+    margin: 5px 0;
+}
+.flexbox__item p a.current {
+    color: #91c7dc;
+}
+#event_type {
+    width:100%;
+}
+
+
+/**
+ * Page de contact
+ */
+.content .coordonnees {
+    width: 100%;
+    float:left;
+    padding: 0 0px 10px 15px;
+    color : #18355d;
+}
+
+.content .coordonnees .coord_title {
+    color : #18355d;
+    font-style:italic;
+}
+
+.content .coordonnees .coord_subtitle {
+    color : #18355d;
+    font-weight:bold;
+}
+
+.content #contact_form {
+    width: 100%;
+}
+.content #contact_form #info_msg {
+    color:#18355d;
+    font-style:italic;
+}
+.content #contact_form #error_msg {
+    color:red;
+    font-style:italic;
+    display:none;
+}
+.content #contact_form fieldset {
+    border: 0px;
+    margin-bottom:0px;
+}
+.content #contact_form label {
+    color : #18355d;
+    font-style:italic;
+}
+.content #contact_form button {
+    margin-left:22px;
+}
+
+/**
+ * Page de liens
+ */
+ .content ul.links li {
+    list-style: outside none none;
+ }
+ .content ul.links li a {
+    text-deocration: underline;
+    color : #18355d;
+    font-style:italic;
+    font-weight:bold;
+ }
+
+ /**
+ * Page des costumes
+ */
+#costumes {
+    width: 100%;
+}
+#costumes #single_costume {
+    width: 50%;
+    text-align:center;
+    color : #18355d;
+    font-weight:bold;
+    float:left;
+    padding: 5px 5px 5px 0px;
+}
+#costumes #single_costume img {
+    cursor: pointer;
+}
+.slideshow {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    perspective: 1000px;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.5s ease 0s, visibility 0s ease 0.5s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 500;
+    cursor: pointer;
+}
+.slideshow_open {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    overflow: hidden;
+    perspective: 1000px;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.5s ease 0s;
+    visibility: visible;
+    width: 100%;
+    z-index: 500;
+    cursor: pointer;
+}
+#slide {
+    text-align:center;
+}
+
+/**
+ * Page des manifestations
+ */
+#grands_rdv, #presta_privees, #medias, #manifs_culturelles {
+    display: none;
+}
