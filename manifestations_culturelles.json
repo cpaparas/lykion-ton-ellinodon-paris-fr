@@ -1,0 +1,26 @@
+[
+	{
+		"event_type": "article",
+		"event_title": "XENITIA 2017",
+		"event_img": "AFFICHE_XENITIA.png",
+		"event_img_title": "XENITIA",
+		"event_text": "<p>Découvrez la toute dernière production du Lykion Ton Ellinidon - Bureau de Paris ! XENITIA, un spectacle de danses et chants traditionnels de la Grèce et de Chypre placé sous le thème de la migration et de l’exil.</p>",
+		"event_video_url": ""
+	},
+	{
+		"event_type": "article",
+		"event_title": "XENITIA 2017",
+		"event_img": "AFFICHE_XENITIA.png",
+		"event_img_title": "XENITIA",
+		"event_text": "<p>Découvrez la toute dernière production du Lykion Ton Ellinidon - Bureau de Paris ! XENITIA, un spectacle de danses et chants traditionnels de la Grèce et de Chypre placé sous le thème de la migration et de l’exil.</p>",
+		"event_video_url": ""
+	},
+	{
+		"event_type": "youtube",
+		"event_title": "Europe Berry Touraine : Rencontres européennes",
+		"event_img": "",
+		"event_img_title": "",
+		"event_text": "",
+		"event_video_url": "http://www.youtube.com/embed/xc-tnJ8f5W4"
+	}
+]
