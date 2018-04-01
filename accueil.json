@@ -22,5 +22,13 @@
 		"event_img_title": "",
 		"event_text": "",
 		"event_video_url": "http://www.youtube.com/embed/xc-tnJ8f5W4"
+	},
+	{
+		"event_type": "article",
+		"event_title": "TEST 2017",
+		"event_img": "11856442_536439436509161_9032053214292832360_o.jpg",
+		"event_img_title": "XENITIA",
+		"event_text": "<p>Découvrez la toute dernière production du Lykion Ton Ellinidon - Bureau de Paris ! XENITIA, un spectacle de danses et chants traditionnels de la Grèce et de Chypre placé sous le thème de la migration et de l’exil.</p>",
+		"event_video_url": ""
 	}
 ]

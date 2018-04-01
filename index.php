@@ -34,19 +34,19 @@
         <nav>
             <a class="mobile-nav" title="Ouvrir/fermer la navigation">Ouvrir/fermer la navigation</a>
             <ul class="nav nav--fit nav--block greybox">
-                <li class="current"><a href="/">Accueil</a></li>
+                <li class="current"><a href="index.php">Accueil</a></li>
                 <li><a href="presentation.html">Présentation</a></li>
                 <li><a href="historique.html">Historique</a></li>
                 <li><a href="cours.html">Cours de danse</a></li>
-                <li><a href="evenements.html">Manifestations</a></li>
-                <li><a href="costumes.html">Nos costumes</a></li>
+                <li><a href="evenements.php">Manifestations</a></li>
+                <li><a href="costumes.php">Nos costumes</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="liens.html">Liens</a></li>
             </ul>
         </nav>
         <section class="content">
         <?php
-            $json_source = file_get_contents("http://".$_SERVER["HTTP_HOST"].'/accueil.json');
+            $json_source = file_get_contents('accueil.json');
 
             $json_data = json_decode($json_source);
 

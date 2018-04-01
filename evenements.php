@@ -34,12 +34,12 @@
         <nav>
             <a class="mobile-nav" title="Ouvrir/fermer la navigation">Ouvrir/fermer la navigation</a>
             <ul class="nav nav--fit nav--block greybox">
-                <li><a href="/">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="presentation.html">Présentation</a></li>
                 <li><a href="historique.html">Historique</a></li>
                 <li><a href="cours.html">Cours de danse</a></li>
-                <li class="current"><a href="evenements.html">Manifestations</a></li>
-                <li><a href="costumes.html">Nos costumes</a></li>
+                <li class="current"><a href="evenements.php">Manifestations</a></li>
+                <li><a href="costumes.php">Nos costumes</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="liens.html">Liens</a></li>
             </ul>
@@ -72,7 +72,7 @@
             <div id="nos_spectacles">
                 <h2>Nos Spectacles</h2>
                 <?php
-                    $json_source = file_get_contents('http://refonte.lykion-ton-ellinidon-paris.dev/nos_spectacles.json');
+                    $json_source = file_get_contents('nos_spectacles.json');
 
                     $json_data = json_decode($json_source);
                     if ($json_data) {
